@@ -21,7 +21,7 @@ public class Minigame {
 			System.out.println(
 			    "A number is chosen"
 			    + " between 1 to 100."
-			    + "Guess the number"
+			    + "Guess the number "
 			    + " within 5 tries.");
  
 			// Iterate over K Tries
@@ -56,8 +56,8 @@ public class Minigame {
  
 			if (i == K) {
 			    System.out.println(
-			        "You have exhausted"
-			        + " K trials.");
+			    		"You have exhausted "
+			    				+ K + " tries.");
  
 			    System.out.println(
 			        "The number was " + number);
@@ -74,3 +74,8 @@ public class Minigame {
         guessingNumberGame();
     }
 }
+
+//Daigor Rodrigues
+//Allister Gardner
+//Paul McFetridge
+//James Almond

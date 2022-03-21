@@ -13,7 +13,7 @@ public class Minigame {
 			int number = 1 + (int)(100
 			                       * Math.random());
  
-			// Given K trials
+			// Given K tries
 			int K = 5;
  
 			int i, guess;
@@ -22,9 +22,9 @@ public class Minigame {
 			    "A number is chosen"
 			    + " between 1 to 100."
 			    + "Guess the number"
-			    + " within 5 trials.");
+			    + " within 5 tries.");
  
-			// Iterate over K Trials
+			// Iterate over K Tries
 			for (i = 0; i < K; i++) {
  
 			    System.out.println(
